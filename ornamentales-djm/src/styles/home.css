@@ -1,0 +1,33 @@
+.home {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+  
+  .hero {
+    background-color: #eef5e6;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #2f5d34;
+  }
+  
+  .about, .products, .contact {
+    margin-bottom: 2rem;
+  }
+  
+  .products ul {
+    list-style-type: square;
+    margin-left: 2rem;
+  }
+  
+  .footer {
+    text-align: center;
+    color: #777;
+    margin-top: 2rem;
+  }
+  

@@ -1,0 +1,10 @@
+.custom-navbar {
+  background-color: #2e7d32; /* Verde oscuro elegante */
+}
+
+.logo-border {
+  border: 2px solid #fff; /* Borde blanco o el color que prefieras */
+  border-radius: 50%;
+  padding: 2px;
+  background-color: white;
+}

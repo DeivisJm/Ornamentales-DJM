@@ -1,0 +1,20 @@
+/* Estilo base para altura completa y layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hacemos que App ocupe todo el alto disponible */
+#root > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Esto empuja el footer al fondo si hay poco contenido */
+main {
+  flex: 1;
+}
