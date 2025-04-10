@@ -12,12 +12,13 @@ const Header = () => {
           <span className="fw-bold fs-4">Ornamentales DJM</span>
         </Link>
 
-        <ul className="navbar-nav">
-          <li className="nav-item">
+        <ul className="navbar-nav d-flex align-items-center">
+          <li className="nav-item me-3">
             <Link to="/contacto" className="nav-link text-white">
               Contacto
             </Link>
           </li>
+         
         </ul>
       </div>
     </nav>
