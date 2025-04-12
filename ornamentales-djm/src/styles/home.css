@@ -47,9 +47,11 @@
 .card-img-top {
   border-bottom: 2px solid #4caf50;
   transition: transform 0.4s ease;
-  height: 300px;
-  object-fit: cover;
+  height: 350px;
+  object-fit: contain;
+  
 }
+
 
 .card:hover .card-img-top {
   transform: scale(1.05);
